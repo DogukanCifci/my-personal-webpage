@@ -1,8 +1,12 @@
+import "./Navbar.scss";
+import { images } from "../../constants";
 const Navbar = () => {
   return (
-    <div>
-      <h1>NAVBAR</h1>
-    </div>
+    <nav>
+      <div>
+        <img src={images.dogukan_logo} alt="" />
+      </div>
+    </nav>
   );
 };
 export default Navbar;
