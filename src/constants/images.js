@@ -10,7 +10,6 @@ import react from "../assets/react.png";
 import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 import dogukan_logo from "../assets/dogukan_logo.png";
-
 import profile6 from "../assets/profile6.PNG";
 import circle from "../assets/circle.svg";
 import bgIMG from "../assets/bgIMG.png";
