@@ -14,9 +14,17 @@ import profile6 from "../assets/profile6.PNG";
 import circle from "../assets/circle.svg";
 import bgIMG from "../assets/bgIMG.png";
 import django from "../assets/django.png";
+import html_css_bg from "../assets/html_css_bg.png";
+import javascript_bg from "../assets/javascript_bg.png";
+import react_bg from "../assets/react_bg.png";
+import django_bg from "../assets/django_bg.jpeg";
 import me from "../assets/me.png";
 
 export default {
+  django_bg,
+  react_bg,
+  javascript_bg,
+  html_css_bg,
   about01,
   about02,
   about03,
