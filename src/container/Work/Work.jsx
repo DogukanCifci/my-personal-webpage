@@ -1,7 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
-import { images } from "../../constants";
 import { projects } from "./projects";
 import { AppWrap } from "../../wrapper";
 import "./Work.scss";
@@ -9,10 +8,23 @@ import "./Work.scss";
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState("All");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+  const [filteredData, setFilteredData] = useState(projects);
+
+  //Filtre isleminden gecirme fonksiyonu.
+  //# My Creative Portfolio Kismindaki butonlara basildiginda filtrelemesi icin..
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
     setAnimateCard([{ y: 100, opacity: 0 }]);
+
+    setFilteredData(
+      projects.filter(
+        (project) => project.tag.toLowerCase() === item.toLowerCase()
+      )
+    );
+    if (item === "All") {
+      setFilteredData(projects);
+    }
 
     setTimeout(() => {
       setAnimateCard([{ y: 0, opacity: 1 }]);
@@ -25,19 +37,21 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["HTML-CSS", "Javascript", "React JS", "Django"].map((item, idx) => {
-          return (
-            <div
-              key={idx}
-              onClick={() => handleWorkFilter(item)}
-              className={`app__work-filter-item app__flex p-text ${
-                activeFilter === item ? "item-active" : ""
-              }`}
-            >
-              {item}
-            </div>
-          );
-        })}
+        {["HTML-CSS", "Javascript", "React JS", "Django", "All"].map(
+          (item, idx) => {
+            return (
+              <div
+                key={idx}
+                onClick={() => handleWorkFilter(item)}
+                className={`app__work-filter-item app__flex p-text ${
+                  activeFilter === item ? "item-active" : ""
+                }`}
+              >
+                {item}
+              </div>
+            );
+          }
+        )}
       </div>
 
       <motion.div
@@ -45,11 +59,11 @@ const Work = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {projects.map((item, index) => {
+        {filteredData.map((item, index) => {
           const { title, tag, url, project_link, code_link, description } =
             item;
           return (
-            <div className="app__work-item app__flex">
+            <div className="app__work-item app__flex" key={index}>
               <div className="app__work-img app__flex">
                 <img src={url} alt={url} />
 

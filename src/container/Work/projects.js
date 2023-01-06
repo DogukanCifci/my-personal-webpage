@@ -2,7 +2,7 @@ import { images } from "../../constants";
 
 export const projects = [
   {
-    tag: "REACT",
+    tag: "React JS",
     title: "Blog App",
     url: `${images.react_bg}`,
     description:
@@ -11,7 +11,7 @@ export const projects = [
     code_link: "https://github.com/DogukanCifci/blog-app-react",
   },
   {
-    tag: "REACT",
+    tag: "React JS",
     title: "Movie App",
     url: `${images.react_bg}`,
     description:
@@ -20,7 +20,7 @@ export const projects = [
     code_link: "https://github.com/DogukanCifci/movie-app-react",
   },
   {
-    tag: "REACT",
+    tag: "React JS",
     title: "Recipe App",
     url: `${images.react_bg}`,
     description: "RESTApi - React - Components - Router",
@@ -65,7 +65,7 @@ export const projects = [
   },
 
   {
-    tag: "REACT",
+    tag: "React JS",
     title: "Contact App",
     url: `${images.react_bg}`,
     description: "React - Realtime Database - Toastify",
@@ -73,7 +73,7 @@ export const projects = [
     code_link: "https://github.com/DogukanCifci/fire-contact-react",
   },
   {
-    tag: "REACT",
+    tag: "React JS",
     title: "Task Tracker",
     url: `${images.react_bg}`,
     description: "Database - React - Router - Bootstrap",
@@ -89,7 +89,7 @@ export const projects = [
     code_link: "https://github.com/DogukanCifci/ios-Calculator",
   },
   {
-    tag: "REACT",
+    tag: "React JS",
     title: "Webpages Route with React",
     url: `${images.react_bg}`,
     description: "React - Router - Bootstrap",

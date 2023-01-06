@@ -19,8 +19,15 @@ import javascript_bg from "../assets/javascript_bg.png";
 import react_bg from "../assets/react_bg.png";
 import django_bg from "../assets/django_bg.jpeg";
 import me from "../assets/me.png";
-
+import reactIcon from "../assets/reactIcon.png";
+import gitIcon from "../assets/gitIcon.png";
+import linuxIcon from "../assets/linuxIcon.webp";
+import postgreIcon from "../assets/postgresql.svg.png";
 export default {
+  reactIcon,
+  gitIcon,
+  linuxIcon,
+  postgreIcon,
   django_bg,
   react_bg,
   javascript_bg,
