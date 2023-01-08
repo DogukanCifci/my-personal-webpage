@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Tooltip } from "react-tooltip";
 import { motion } from "framer-motion";
-import { AppWrap } from "../../wrapper";
+// import { AppWrap } from "../../wrapper";
 import { skills } from "./skilller";
 import { experiences } from "./experiences";
 import "./Skills.scss";
@@ -54,14 +54,16 @@ const Skills = () => {
                   <p className="p-text">{works.company}</p>
                 </motion.div>
 
-                <Tooltip
+                {/* Ne yaparsam yapayim degistiremedim. Cutomize edemedim. */}
+                {/* https://www.syncfusion.com/react-components/react-tooltip ---Bu sitede properties var*/}
+                {/*  <Tooltip
                   id={works.name}
+                  variant="success"
+                  position="TopLeft"
                   effect="solid"
                   arrowColor="#fff"
                   className="skills-tooltip"
-                >
-                  {works.desc}
-                </Tooltip>
+                ></Tooltip> */}
               </div>
             );
           })}
