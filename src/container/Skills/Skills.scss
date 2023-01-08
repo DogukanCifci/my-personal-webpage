@@ -9,7 +9,8 @@
   margin-top: 3rem;
   display: flex;
   flex-direction: row;
-
+  margin-inline: auto;
+  margin-bottom: 5rem;
   //For Mobile Devices and Tablets
   @media (max-width: 900px) {
     width: 100%;

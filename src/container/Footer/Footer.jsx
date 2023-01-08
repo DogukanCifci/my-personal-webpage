@@ -30,13 +30,14 @@ const Footer = () => {
       date: date,
     };
     AddMessages(formData);
+    setIsFormSubmitted(true);
   };
   //Kontrol Amacli yazildi
   /*  console.log("Name: ", name);
   console.log("Email: ", email);
   console.log("Message ", message); */
   return (
-    <>
+    <div className="footer-container">
       <h2 className="head-text">Take a coffee & chat with me</h2>
       <div className="app__footer-cards">
         <div className="app__footer-card">
@@ -54,36 +55,44 @@ const Footer = () => {
       </div>
 
       {/* Kullanicinin admine mesaj göndermesi icin olusturulan form kismi */}
-      <div className="app__footer-form app__flex">
-        <div className="app__flex">
-          <input
-            type="text"
-            className="p-text"
-            placeholder="Your Name"
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
-        <div className="app__flex">
-          <input
-            type="email"
-            className="p-text"
-            placeholder="Your Email"
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </div>
-        <div>
-          <textarea
-            className="p-text"
-            placeholder="Your Message"
-            onChange={(e) => setMessage(e.target.value)}
-          ></textarea>
-        </div>
+      {!isFormSubmitted ? (
+        <div className="app__footer-form app__flex">
+          <div className="app__flex">
+            <input
+              type="text"
+              className="p-text"
+              placeholder="Your Name"
+              onChange={(e) => setName(e.target.value)}
+            />
+          </div>
+          <div className="app__flex">
+            <input
+              type="email"
+              className="p-text"
+              placeholder="Your Email"
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </div>
+          <div>
+            <textarea
+              className="p-text"
+              placeholder="Your Message"
+              onChange={(e) => setMessage(e.target.value)}
+            ></textarea>
+          </div>
 
-        <button type="button" className="p-text" onClick={handleSubmit}>
-          {loading ? "Sending" : "Send Message"}
-        </button>
-      </div>
-    </>
+          <button type="button" className="p-text" onClick={handleSubmit}>
+            {loading ? "Sending" : "Send Message"}
+          </button>
+        </div>
+      ) : (
+        <div>
+          <h3 className="head-text last-message">
+            Thank you for getting in touch!
+          </h3>
+        </div>
+      )}
+    </div>
   );
 };
 export default Footer;
