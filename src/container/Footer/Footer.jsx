@@ -21,7 +21,8 @@ const Footer = () => {
   //Destructing
 
   //Events
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     setLoading(true);
     const formData = {
       name: name,
@@ -56,13 +57,14 @@ const Footer = () => {
 
       {/* Kullanicinin admine mesaj göndermesi icin olusturulan form kismi */}
       {!isFormSubmitted ? (
-        <div className="app__footer-form app__flex">
+        <form onSubmit={handleSubmit} className="app__footer-form app__flex">
           <div className="app__flex">
             <input
               type="text"
               className="p-text"
               placeholder="Your Name"
               onChange={(e) => setName(e.target.value)}
+              required
             />
           </div>
           <div className="app__flex">
@@ -71,6 +73,7 @@ const Footer = () => {
               className="p-text"
               placeholder="Your Email"
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
           </div>
           <div>
@@ -78,17 +81,14 @@ const Footer = () => {
               className="p-text"
               placeholder="Your Message"
               onChange={(e) => setMessage(e.target.value)}
+              required
             ></textarea>
           </div>
 
-          <button
-            type="button"
-            className="button p-text"
-            onClick={handleSubmit}
-          >
+          <button type="submit" className="button p-text">
             {loading ? "Sending" : "Send Message"}
           </button>
-        </div>
+        </form>
       ) : (
         <div>
           <h3 className="head-text last-message">
