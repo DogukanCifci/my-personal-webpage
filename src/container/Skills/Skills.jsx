@@ -1,5 +1,5 @@
 import React from "react";
-import { Tooltip } from "react-tooltip";
+// import { Tooltip } from "react-tooltip";
 import { motion } from "framer-motion";
 // import { AppWrap } from "../../wrapper";
 import { skills } from "./skilller";

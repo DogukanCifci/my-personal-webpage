@@ -23,7 +23,10 @@ import reactIcon from "../assets/reactIcon.png";
 import gitIcon from "../assets/gitIcon.png";
 import linuxIcon from "../assets/linuxIcon.webp";
 import postgreIcon from "../assets/postgresql.svg.png";
+import email from "../assets/email.png";
+
 export default {
+  email,
   reactIcon,
   gitIcon,
   linuxIcon,
