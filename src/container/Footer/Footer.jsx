@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { images } from "../../constants";
 import { AddMessages } from "../../helpers/functions";
-// import { AppWrap } from "../../wrapper";
+import { AppWrap } from "../../wrapper";
 import "./Footer.scss";
 
 ///'##################-------- BASLANGIC '##################--------////
@@ -95,4 +95,4 @@ const Footer = () => {
     </div>
   );
 };
-export default Footer;
+export default AppWrap(Footer, "contact");

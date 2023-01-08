@@ -1,7 +1,7 @@
 import React from "react";
 // import { Tooltip } from "react-tooltip";
 import { motion } from "framer-motion";
-// import { AppWrap } from "../../wrapper";
+import { AppWrap } from "../../wrapper";
 import { skills } from "./skilller";
 import { experiences } from "./experiences";
 import "./Skills.scss";
@@ -72,4 +72,4 @@ const Skills = () => {
     </>
   );
 };
-export default Skills;
+export default AppWrap(Skills, "skills");

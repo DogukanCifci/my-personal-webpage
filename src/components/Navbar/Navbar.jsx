@@ -11,7 +11,7 @@ const Navbar = () => {
         <img src={images.dogukan_logo} alt="" />
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", " work", "skills", "contact"].map((item) => {
+        {["home", "about", "work", "skills", "contact"].map((item) => {
           return (
             <li key={`link-${item}`} className="app__flex p-text">
               <div />
@@ -30,10 +30,10 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul className="app__navbar-links">
-              {["home", "about", " work", "skills", "contact"].map((item) => {
+              {["home", "about", "work", "skills", "contact"].map((item) => {
                 return (
                   <li key={item}>
-                    <a href={item} onClick={() => setToggle(false)}>
+                    <a href={`#${item}`} onClick={() => setToggle(false)}>
                       {item}
                     </a>
                   </li>
