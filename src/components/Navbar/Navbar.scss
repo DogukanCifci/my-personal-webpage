@@ -24,6 +24,32 @@
   }
 }
 
+//Menu acma logosu degisiklikler
+
+.menu-bar {
+  &:hover {
+    cursor: pointer;
+  }
+}
+// Carpi logosuna tiklandiginda degisiklik olmasi icin
+.exit {
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: red;
+    cursor: pointer;
+    transform: scale(1.15);
+  }
+}
+
+//Sagdan acilan menü icerisindeki linklere hover oldugundaki özellikler degisme
+.right-menu li {
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+    font-weight: 900;
+    text-shadow: 5px 5px 5px rgb(87, 59, 8);
+  }
+}
 .app__navbar-links {
   flex: 1;
   display: flex;

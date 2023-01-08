@@ -1,27 +1,22 @@
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
 import { AppWrap } from "../../wrapper";
 import "./About.scss";
 import { images } from "../../constants";
 const abouts = [
   {
     title: "Web Development",
-    description: "I am a good Web Developer",
     imgUrl: images.about01,
   },
   {
     title: "Frontend Development",
-    description: "I am a good Web Developer",
     imgUrl: images.about02,
   },
   {
     title: "Backend",
-    description: "I am a good Web Developer",
     imgUrl: images.about04,
   },
   {
     title: "Certificates",
-    description: "Certificates",
     imgUrl: images.about03,
   },
 ];
@@ -51,9 +46,6 @@ const About = () => {
               <h2 className="bold-text" style={{ marginTop: 20 }}>
                 {about.title}
               </h2>
-              <h3 className="bold-text" style={{ marginTop: 10 }}>
-                {about.description}
-              </h3>
             </motion.div>
           );
         })}
