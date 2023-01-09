@@ -1,7 +1,7 @@
 .wrapper,
 .card {
-  height: 450px;
-  max-width: 300px;
+  height: 230px;
+  max-width: 900px;
   margin-inline: auto;
   position: relative;
 }
@@ -30,12 +30,17 @@
   backface-visibility: hidden;
 }
 
-.item.front {
+.item-front {
   cursor: pointer;
   height: 100%;
   backface-visibility: hidden;
   border-radius: 25px;
   background-size: cover;
+  img {
+    width: 100%;
+
+    object-fit: contain;
+  }
 }
 
 .item-back {
