@@ -6,6 +6,7 @@ const NavigationDots = ({ active }) => {
       {[
         "home",
         "about",
+        "certification",
         "work",
         "skills",
         //Testimonials daha sonra ekle

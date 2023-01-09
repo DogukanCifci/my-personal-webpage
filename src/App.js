@@ -1,4 +1,12 @@
-import { About, Footer, Skills, Testimonial, Work, Header } from "./container";
+import {
+  About,
+  Footer,
+  Skills,
+  Testimonial,
+  Work,
+  Header,
+  Certification,
+} from "./container";
 import { Navbar } from "./components";
 import "./App.scss";
 function App() {
@@ -7,6 +15,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Certification />
       <Work />
       <Skills />
       {/* <Testimonial /> */}

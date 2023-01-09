@@ -11,14 +11,16 @@ const Navbar = () => {
         <img src={images.dogukan_logo} alt="" />
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", "work", "skills", "contact"].map((item) => {
-          return (
-            <li key={`link-${item}`} className="app__flex p-text">
-              <div />
-              <a href={`#${item}`}>{item}</a>
-            </li>
-          );
-        })}
+        {["home", "about", "certification", "work", "skills", "contact"].map(
+          (item) => {
+            return (
+              <li key={`link-${item}`} className="app__flex p-text">
+                <div />
+                <a href={`#${item}`}>{item}</a>
+              </li>
+            );
+          }
+        )}
       </ul>
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} className="menu-bar" />
