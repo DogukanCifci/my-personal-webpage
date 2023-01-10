@@ -11,7 +11,6 @@ export const Cards = ({ item }) => {
       <div className="item-back">
         <div className="content">
           <div className="item-title">
-            <h3>{company}</h3>
             <h4>{title}</h4>
           </div>
           <div className="item-text">
@@ -19,14 +18,6 @@ export const Cards = ({ item }) => {
               {skills.map((skill, index) => {
                 return <li key={index}>{skill}</li>;
               })}
-            </ul>
-          </div>
-
-          <div className="item-social">
-            <ul>
-              <li>Logo1</li>
-              <li>Logo2</li>
-              <li>Logo3</li>
             </ul>
           </div>
         </div>

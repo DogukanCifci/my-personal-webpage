@@ -17,7 +17,7 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 20px;
 }
 
 .card {
@@ -31,7 +31,7 @@ h3 {
 
 .item-front,
 .item-back {
-  width: 300px;
+  width: 350px;
   position: relative;
   top: 0;
   left: 0;
@@ -47,7 +47,7 @@ h3 {
   background-size: cover;
   img {
     width: 100%;
-
+    border-radius: 15px;
     object-fit: contain;
   }
 }

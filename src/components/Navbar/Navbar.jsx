@@ -32,7 +32,14 @@ const Navbar = () => {
           >
             <HiX className="exit" onClick={() => setToggle(false)} />
             <ul className="app__navbar-links right-menu">
-              {["home", "about", "work", "skills", "contact"].map((item) => {
+              {[
+                "home",
+                "about",
+                "certification",
+                "work",
+                "skills",
+                "contact",
+              ].map((item) => {
                 return (
                   <li key={item}>
                     <a href={`#${item}`} onClick={() => setToggle(false)}>
