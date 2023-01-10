@@ -2,9 +2,9 @@ import "../Certification/Certification.scss";
 
 export const Cards = ({ item }) => {
   //Destrcuting
-  const { company, title, skills, url } = item;
+  const { title, skills, url, sertifikaUrl } = item;
   return (
-    <>
+    <a className="card" href={sertifikaUrl} rel="noreferrer" target="_blank">
       <div className="item-front">
         <img src={url} alt="" />
       </div>
@@ -16,12 +16,16 @@ export const Cards = ({ item }) => {
           <div className="item-text">
             <ul>
               {skills.map((skill, index) => {
-                return <li key={index}>{skill}</li>;
+                return (
+                  <li style={{ color: "black" }} key={index}>
+                    {skill}
+                  </li>
+                );
               })}
             </ul>
           </div>
         </div>
       </div>
-    </>
+    </a>
   );
 };
