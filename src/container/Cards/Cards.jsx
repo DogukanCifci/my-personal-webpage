@@ -15,7 +15,11 @@ export const Cards = ({ item }) => {
             <h4>{title}</h4>
           </div>
           <div className="item-text">
-            <p>{skills}</p>
+            <ul>
+              {skills.map((skill, index) => {
+                return <li key={index}>{skill}</li>;
+              })}
+            </ul>
           </div>
 
           <div className="item-social">
