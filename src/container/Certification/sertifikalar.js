@@ -10,6 +10,8 @@ export const sertifikalar = [
       "REST API",
     ],
     url: images.clarusway04,
+    sertifikaUrl:
+      "https://d34lllqo5jm5il.cloudfront.net/en/verify/54064365724691?ref=email",
   },
   {
     title: "React",
@@ -21,6 +23,8 @@ export const sertifikalar = [
       "Software Deployment",
     ],
     url: images.clarusway03,
+    sertifikaUrl:
+      "https://d34lllqo5jm5il.cloudfront.net/en/verify/41322385339965?ref=email",
   },
   {
     company: "CLARUSWAY",
@@ -33,11 +37,15 @@ export const sertifikalar = [
       "Javascript",
     ],
     url: images.clarusway02,
+    sertifikaUrl:
+      "https://d34lllqo5jm5il.cloudfront.net/en/verify/51267259762362?ref=email",
   },
   {
     title: "HTML-CSS",
     skills: ["Web Development", "HTML5", "CSS3", "SASS", "Bootstrap"],
     url: images.clarusway01,
+    sertifikaUrl:
+      "https://d34lllqo5jm5il.cloudfront.net/en/verify/00679566790073?ref=email",
   },
 
   {
@@ -49,6 +57,8 @@ export const sertifikalar = [
       "Python Programming",
     ],
     url: images.UniMichigan01,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/RCWP287J9383",
   },
   {
     title: "Python Data Structures",
@@ -59,14 +69,18 @@ export const sertifikalar = [
       "Python Programming",
     ],
     url: images.UniMichigan02,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/3FPL2AR3BRG3",
   },
   {
     title: "Using Python to Access Web Data",
     skills: ["Json", "XML", "Web Scraping", "Python Programming"],
     url: images.UniMichigan03,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/MDG4HG2XJP4Y",
   },
   {
-    title: "Introduction to Web Development",
+    title: "Introduction to Frontend Development",
     skills: [
       "Web Development Tools",
       "User Interface",
@@ -75,6 +89,8 @@ export const sertifikalar = [
       "HTML and CSS",
     ],
     url: images.meta02,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/EW5Y455CKGFG",
   },
   {
     title: "Programming with JavaScript",
@@ -85,11 +101,15 @@ export const sertifikalar = [
       "Object-Oriented Programming (OOP)",
     ],
     url: images.meta01,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/JW3JSPZ9SBNS",
   },
   {
     title: "Introduction to Web Development",
     skills: ["HTML-CSS", "JavaScript"],
     url: images.UniCalifornia01,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/D89CGMLS5GLK",
   },
   {
     title: "Python for Data Science, AI & Development",
@@ -101,18 +121,10 @@ export const sertifikalar = [
       "Pandas",
     ],
     url: images.ibm04,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/JMAEWSXWHK8C",
   },
-  {
-    title: "Python for Data Science, AI & Development",
-    skills: [
-      "Data Science",
-      "Python Programming",
-      "Data Analysis",
-      "Numpy",
-      "Pandas",
-    ],
-    url: images.ibm04,
-  },
+
   {
     title: "What is Data Science?",
     skills: [
@@ -123,6 +135,8 @@ export const sertifikalar = [
       "Data Mining",
     ],
     url: images.ibm03,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/M2FYQPB2ZJPM",
   },
   {
     title: "Introduction to Cloud Computing",
@@ -134,6 +148,8 @@ export const sertifikalar = [
       "Cloud Computing",
     ],
     url: images.ibm02,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/BMTZ62GT5K8D",
   },
   {
     title: "Introduction to Web Development with HTML, CSS and Javascript",
@@ -145,6 +161,8 @@ export const sertifikalar = [
       "Cloud Applications",
     ],
     url: images.ibm05,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/A8LD8SKNA6PH",
   },
   {
     title: "Getting Started with Git and Github",
@@ -156,5 +174,7 @@ export const sertifikalar = [
       "Git(Software)",
     ],
     url: images.ibm01,
+    sertifikaUrl:
+      "https://www.coursera.org/account/accomplishments/verify/H9GKDFB4ZPAY",
   },
 ];

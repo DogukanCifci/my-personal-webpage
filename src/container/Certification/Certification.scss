@@ -1,3 +1,10 @@
+//Ilk Baslik
+
+h3 {
+  margin-top: 100px;
+  margin-bottom: 3rem;
+}
+
 .wrapper,
 .card {
   margin-inline: auto;
@@ -69,22 +76,11 @@
 }
 
 .item-title h4 {
-  font-weight: 500;
+  font-weight: 800;
+  color: var(--secondary-color);
+  text-transform: uppercase;
 }
 
 .item-text {
-  margin: 25px 0 40px;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline-block;
-  margin-right: 15px;
-}
-
-li:last-child {
-  margin-right: 15px;
+  margin: 25px 0;
 }
