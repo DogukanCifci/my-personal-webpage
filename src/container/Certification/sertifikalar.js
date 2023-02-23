@@ -3,24 +3,24 @@ export const sertifikalar = [
   {
     title: "Full Stack Development",
     skills: [
-      "React JS",
-      "Javascript",
-      "Firebase",
-      "Frontend Design",
-      "REST API",
+      "RESTAPI Design",
+      "REACT JS",
+      "DJANGO",
+      "Deployment",
+      "Database(PostgreSQL, SQLite)",
     ],
     url: images.clarusway06,
     sertifikaUrl:
-      "https://d34lllqo5jm5il.cloudfront.net/en/verify/54064365724691?ref=email",
+      "https://d34lllqo5jm5il.cloudfront.net/en/verify/48666794354546?ref=email",
   },
   {
     title: "Backend Development",
     skills: [
-      "React JS",
-      "Javascript",
-      "Firebase",
-      "Frontend Design",
-      "REST API",
+      "PYTHON-DJANGO",
+      "REST API Design",
+      "Model View Sets",
+      "Serializers",
+      "Authentication-Permission",
     ],
     url: images.clarusway05,
     sertifikaUrl:
@@ -28,10 +28,16 @@ export const sertifikalar = [
   },
   {
     title: "Frontend Development",
-    skills: ["React JS", "GIT(VCS)", "Firebase", "Frontend Design", "REST API"],
+    skills: [
+      "React JS",
+      "GIT(Version Control System)",
+      "Firebase",
+      "Frontend Design",
+      "REST API",
+    ],
     url: images.clarusway04,
     sertifikaUrl:
-      "https://d34lllqo5jm5il.cloudfront.net/en/verify/54064365724691?ref=email",
+      "https://d34lllqo5jm5il.cloudfront.net/en/verify/41952389449311?ref=email",
   },
   {
     title: "React",
@@ -176,7 +182,7 @@ export const sertifikalar = [
     skills: [
       "CSS",
       "HTML",
-      "Git(Software)",
+      "Git(Version Control System)",
       "JavaScript",
       "Cloud Applications",
     ],
@@ -191,7 +197,7 @@ export const sertifikalar = [
       "Open Source",
       "Version Control Systems",
       "GitHub",
-      "Git(VCS)",
+      "Git(Version Control System)",
     ],
     url: images.ibm01,
     sertifikaUrl:
