@@ -1,6 +1,32 @@
 import { images } from "../../constants";
 export const sertifikalar = [
   {
+    title: "Full Stack Development",
+    skills: [
+      "React JS",
+      "Javascript",
+      "Firebase",
+      "Frontend Design",
+      "REST API",
+    ],
+    url: images.clarusway06,
+    sertifikaUrl:
+      "https://d34lllqo5jm5il.cloudfront.net/en/verify/54064365724691?ref=email",
+  },
+  {
+    title: "Backend Development",
+    skills: [
+      "React JS",
+      "Javascript",
+      "Firebase",
+      "Frontend Design",
+      "REST API",
+    ],
+    url: images.clarusway05,
+    sertifikaUrl:
+      "https://d34lllqo5jm5il.cloudfront.net/en/verify/54064365724691?ref=email",
+  },
+  {
     title: "Frontend Development",
     skills: [
       "React JS",

@@ -22,6 +22,9 @@ h3 {
 
 .card {
   transition: all 1.5s cubic-bezier(0.75, -0.5, 0.3, 1.8);
+  -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 

@@ -39,6 +39,8 @@ import clarusway01 from "../assets/clarusway01.jpg";
 import clarusway02 from "../assets/clarusway02.jpg";
 import clarusway03 from "../assets/clarusway03.jpg";
 import clarusway04 from "../assets/clarusway04.jpg";
+import clarusway05 from "../assets/clarusway05.jpg";
+import clarusway06 from "../assets/clarusway06.jpg";
 
 export default {
   UniMichigan01,
@@ -56,6 +58,8 @@ export default {
   clarusway02,
   clarusway03,
   clarusway04,
+  clarusway05,
+  clarusway06,
   email,
   reactIcon,
   gitIcon,
