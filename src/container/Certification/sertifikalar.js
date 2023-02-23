@@ -28,13 +28,7 @@ export const sertifikalar = [
   },
   {
     title: "Frontend Development",
-    skills: [
-      "React JS",
-      "Javascript",
-      "Firebase",
-      "Frontend Design",
-      "REST API",
-    ],
+    skills: ["React JS", "GIT(VCS)", "Firebase", "Frontend Design", "REST API"],
     url: images.clarusway04,
     sertifikaUrl:
       "https://d34lllqo5jm5il.cloudfront.net/en/verify/54064365724691?ref=email",
@@ -197,7 +191,7 @@ export const sertifikalar = [
       "Open Source",
       "Version Control Systems",
       "GitHub",
-      "Git(Software)",
+      "Git(VCS)",
     ],
     url: images.ibm01,
     sertifikaUrl:
