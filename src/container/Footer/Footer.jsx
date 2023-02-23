@@ -39,7 +39,8 @@ const Footer = () => {
   console.log("Message ", message); */
   return (
     <div className="footer-container">
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Take a coffee & Contact with me</h2>
+
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
@@ -47,6 +48,21 @@ const Footer = () => {
             n.dogukancifci@gmail.com
           </a>
         </div>
+        <div className="app__footer-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+            alt="linkedin"
+          />
+          <a
+            href="https://www.linkedin.com/in/dogukan-cifci/"
+            className="p-text"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Nuri Dogukan Cifci
+          </a>
+        </div>
+
         <div className="app__footer-card">
           <img src={images.mobile} alt="mobile" />
           <a href="tel: +49 (176) 63425770" className="p-text">
